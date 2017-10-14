@@ -14,9 +14,11 @@ public class Method {
 
 	public static double calcTriangleArea(double bottom,double height) {
 		return bottom * height / 2;
+		//returnのあとにそのまま式ぶちこめる
 	}
 
 	public static double calcCircleArea(double radius) {
-		return Math.pow(radius, 2) * Math.PI;
+		return Math.pow(radius, 2) * Math.PI; 
+		//Math class使用
 	}
 }
